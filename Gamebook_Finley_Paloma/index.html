@@ -326,18 +326,20 @@ Offenbar hat dein Appell an ihre rationale Seite keine Früchte getragen. Grumme
 [[Du nutzt die Gelegenheit und fragst die Köchin nach der Tatwaffe. Dazu zeigst du ihr das Foto des Messers, das du am Tatort aufgezeichnet hast.|Transaktionsanalyse3B]] </tw-passagedata><tw-passagedata pid="48" name="Transaktionsanalyse3AB" tags="" position="410,2039" size="100,100">Die Köchin ist sichtlich brüskiert angesichts deines Verhaltens. 
 &quot;Unerhört! Ich habe Jahrzehnte für Herrn Desesperado gearbeitet! In was für einer Welt leben wir, in der jahrelange Loyalität für den Chef nicht als Beweis für die Unschuld reicht? Verschwinden Sie aus meiner Küche! Ich hätte wirklich mehr von Ihnen erwartet, Herr Detektiv!&quot;
 (set: $sackgasse+=1)
-[[Hier kommst du so nicht weiter. Vielleicht versuchst du es nochmals von Anfang an?|Transaktionsanalyse]]</tw-passagedata><tw-passagedata pid="49" name="Transaktionsanalyse3B" tags="" position="188,2040" size="100,100">“Ach Kindchen, natürlich habe ich das Messer benutzt, was für eine Frage. ich bin Köchin, und was für eine.&quot; 
+[[Hier kommst du so nicht weiter. Vielleicht versuchst du es nochmals von Anfang an?|Transaktionsanalyse]]</tw-passagedata><tw-passagedata pid="49" name="Transaktionsanalyse3B" tags="" position="188,2041" size="100,100">“Ach Kindchen, natürlich habe ich das Messer benutzt, was für eine Frage. ich bin Köchin, und was für eine.&quot; 
 Bei der Frage, ob noch andere Zugang zu den Messern haben, zuckt sie nur die Schultern. Sowohl die Bauarbeiter als auch die anderen beiden Mitarbeiter fragen mich hin und wieder nach Werkzeugen. Vielleicht hat es einer von ihnen mitgehen lassen?&quot;
 Sie kneift die Augen verschwörerisch zusammen. 
 Wenn Sie mich fragen, dann war es dieser Herr Fastidiado. Zwielichtiger Kerl.&quot;
 Nun, da sie dir alles gesagt hat, was sie sagen wollte, widmet die Köchin sich wieder ihrer Arbeit.
 &quot;Und nun verlassen Sie bitte meine Küche. Ich muss unbedingt wieder an meine Arbeit, es gibt noch so viel zu tun”, grummelt sie, ehe sie dich aus der Küche scheucht. Schade eigentlich, denn du merkst, wie der feine Duft dich hungrig gemacht hat. 
-
+(set: $transaktion to true)
 [[Das ist nochmal gutgegangen. doch weitere Verdächtige warten auf deine Befragung| Am Scheideweg]]
+
+
 
 (if: $transaktion is true AND $eskalation is true AND $teufelskreis is true)[ [[Nachdem du alle drei Verdächtigen befragt hast, wird es Zeit für die Gegenüberstellung|die Gegenüberstellung]] ]
 
-(set: $transaktion to true)</tw-passagedata><tw-passagedata pid="50" name="Eskalationsmodell2" tags="" position="2028,1395" size="100,100">In beschwichtigendem Tonfall versuchst du, sie zur Kooperation zu bewegen und deine Fragen zu beantworten, doch deine Worte scheinen an ihrer Schädeldecke abzuprallen.
+</tw-passagedata><tw-passagedata pid="50" name="Eskalationsmodell2" tags="" position="2028,1395" size="100,100">In beschwichtigendem Tonfall versuchst du, sie zur Kooperation zu bewegen und deine Fragen zu beantworten, doch deine Worte scheinen an ihrer Schädeldecke abzuprallen.
 “Sein oder Nichtsein, das ist Euch die Frage”, entgegnet sie dir ohne nennenswerten Kontext. Völlig perplex stehst du da und weisst nicht, ob du dies als intelligenten oder blöden Schachzug verbuchen sollst.
 “Also gut, aber nur kurz”, lenkt sie aus dem nichts ein und schenkt dir ein umwerfendes Lächeln während sie mit ihren Haaren spielt.
 
